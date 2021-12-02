@@ -131,7 +131,7 @@
   }
   
     .navbar__menu.active {
-      background: #131313;
+      background: #292929;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -214,10 +214,8 @@ body {
   overflow: hidden;
   transform: translate(70%, 50%);
 }
-
 .wrapper{
-  width: 300%;
-  /* 300% 'caz we have 3 cards */
+  width: 300%; 
   min-height: 100%;
   display: flex;
   justify-content: space-between;
@@ -319,29 +317,30 @@ button.active{
   background: #fff;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1700px){
   .container{
-      width: 10%;
-      margin: auto;
-      transform: translate(10%,20%);
+    width: 10%;
+    margin: auto;
+    transform: translate(10%, 9%);
   }
   .card{
-      flex-direction: column;
+    flex-direction: column;
   }
   .card-thumb{
-      width: 100%;
-      border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
   }
   .card-body{
-      width: 100%;
-      min-height: auto;
-      margin-left: 0;
+    width: 100%;
+    min-height: auto;
+    margin-left: 0;
   }
 }
+
 /* Footer CSS */
 footer {
-  position: relative;
-  top: 400px;
+  position: fixed;
+  top: 800px;
 }
 .footer {
   width: 100%;

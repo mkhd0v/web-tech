@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link href="/styles/main.css" rel="stylesheet"  type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
+    crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@200&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "/images/dumbbell-solid.svg" type = "image/x-icon">
+  </head>
+  
+  <body>
+  
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/index.html" id="navbar__logo"><i class="fas fa-dumbbell"></i>ERCULES</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/pages/about.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/pages/prices.html" class="navbar__links">Prices</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/pages/testimonials.html" class="navbar__links">Testimonials</a>
+          </li>
+          <li class="navbar__btn"><a href="/pages/contacts.html" class="button">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>TRAIN LIKE </h1>
+          <h2>NEVER BEFORE</h2>
+          <p>Start exercising now</p>
+          <button class="main__btn"><a href="/pages/about.html">Get to know us</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="/images/pic.svg" />
+        </div>
+      </div>
+    </div>
+    
+    <!-- Services Section -->
+    <div class="service">
+      <h1>What makes us special</h1>
+      <div class="content">
+        <div class="card">
+          <img src="/images/pattern.png" alt="">
+          <div class="box">
+            <i class="fas fa-dollar-sign"></i>
+            <h2>Prices</h2>
+            <p>Our prices are very affordable for every citizen of our country and city</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/pattern.png" alt="">
+          <div class="box">
+            <i class="fas fa-poll-h"></i>
+            <h2>Proven track record</h2>
+            <p>Millions of clients have transformed their body in our facility</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/pattern.png" alt="">
+          <div class="box">
+            <i class="fas fa-calendar-day"></i>
+            <h2>24/7 Service</h2>
+            <p>No timely limitations set for training sessions.Train whenever you want.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/pattern.png" alt="">
+          <div class="box">
+            <i class="fas fa-map-pin"></i>
+            <h2>Location</h2>
+            <p>We are located within the premises of the city center close to metro station</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">
+          This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service.
+        </p>
+        <div class="social-list">
+          <a href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="http://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="/scripts/app.js"></script>
+    
+  </body>
+</html>

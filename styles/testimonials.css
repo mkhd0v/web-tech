@@ -321,7 +321,7 @@ button.active{
   .container{
     width: 10%;
     margin: auto;
-    transform: translate(0%, 9%);
+    transform: translate(0%, 0%);
     
   }
   .card{
@@ -339,10 +339,6 @@ button.active{
 }
 
 /* Footer CSS */
-footer {
-  position: fixed;
-  top: 800px;
-}
 .footer {
   width: 100%;
   height: 13rem;
@@ -372,4 +368,14 @@ footer {
 .social-list i {
   font-size: 2rem;
   color: #a7a7a7;
+}
+
+@media screen and (max-width: 1700px){
+  .footer-content .footer{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
 }

@@ -1,4 +1,4 @@
-//moving the testimonials animation//
+//Moving the testimonials animation//
 const wrapper = document.querySelector('.wrapper');
 const indicators = [...document.querySelectorAll('.indicators button')];
 

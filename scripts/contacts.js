@@ -33,10 +33,6 @@ function validateForm(){
     if(!errorFlag){
         success.innerText = "Thank you! Our Specialicts will get back to you shortly.";
     }
-
-    function newFunction() {
-        return errorNodes[0].innerText = "Name cannot be blank";
-    }
 }
 
 //Error & success message//

@@ -1,4 +1,4 @@
-//navbar_toggle animation when clicked//
+//toggle animation when clicked//
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 

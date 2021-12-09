@@ -204,7 +204,7 @@
   
 /* History section */
 body{
-  background: url(/images/pic5.jfif);
+  background: url(../images/pic5.jfif);
 }
 .container {
   min-height: 100vh;

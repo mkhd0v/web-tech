@@ -203,7 +203,7 @@
   
 /* About us */
 body {
-  background-image: url(/images/pic4.jfif);
+  background-image: url(../images/pic4.jfif);
 }
 .container{
   position: relative;
